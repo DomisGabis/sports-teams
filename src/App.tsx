@@ -4,7 +4,7 @@ import TeamPage from './pages/TeamPage.tsx';
 import RootLayout from './components/RootLayout.tsx';
 import NewTeam from './pages/NewTeam.tsx';
 import NewPlayer from './pages/NewPlayer.tsx';
-import Player from './components/Player.tsx';
+import Player from './pages/Player.tsx';
 
 function App () {
   return (

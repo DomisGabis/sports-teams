@@ -2,7 +2,7 @@ import { useParams } from 'react-router-dom';
 import type { PlayerType } from '../types/PlayerType';
 import { useEffect, useState } from 'react';
 import { getPlayer } from '../api/api';
-import Modal from './Modal';
+import Modal from '../components/Modal';
 
 function Player() {
 
