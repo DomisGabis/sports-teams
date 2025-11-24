@@ -1,0 +1,19 @@
+.info {
+    background: repeating-linear-gradient(
+        90deg,
+        #e5ffef 0%,
+        #a2ffc6 50%,
+        #e5ffef 100%
+    );
+    animation: wave 3s linear infinite;
+    background-size: 200% 100%;
+    color: #198542;
+    padding: 12px 16px;
+    border-radius: 10px;
+    margin: 16px 0;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}

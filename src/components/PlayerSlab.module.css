@@ -1,0 +1,39 @@
+.slab {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    min-width: 15rem;
+
+    background: repeating-linear-gradient(
+        90deg,
+        #24293E 0%,
+        #5D6279 50%,
+        #24293E 100%
+    );
+    background-size: 200% 100%;
+    border-radius: 1rem;
+    transition: 0.2s;
+}
+
+.slab:hover {
+    animation: wave 3s linear infinite;
+    box-shadow: #5d627997 0px 0px 8px 1px;
+}
+
+.slab:active {
+    opacity: 70%;
+}
+
+@keyframes wave {
+    from {
+        background-position: 0% 0%;
+    }
+    to {
+        background-position: -200% 0%; 
+    }
+}

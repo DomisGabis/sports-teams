@@ -1,0 +1,28 @@
+.warning {
+    background: repeating-linear-gradient(
+        90deg,
+        #FFF4E5 0%,
+        #fbc272 50%,
+        #FFF4E5 100%
+    );
+    animation: wave 2s linear infinite;
+    background-size: 200% 100%;
+    color: #CC7A00;
+    padding: 12px 16px;
+    border-radius: 10px;
+    margin: 16px 0;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+@keyframes wave {
+    from {
+        background-position: 0% 0%;
+    }
+    to {
+        background-position: -200% 0%; 
+    }
+}

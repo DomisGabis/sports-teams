@@ -1,0 +1,23 @@
+:root { --navbar-side-size: 20%;}
+
+.searchInput {
+    width: 100%;
+}
+
+.teamSlab {
+    text-decoration: none;
+    color: inherit;
+    width: auto;
+    border-radius: 8px;
+    cursor: pointer;
+    min-width: 30rem;
+}
+
+.teamsGrid {
+    padding-top: 1rem;
+    padding-left: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+    gap: 1rem;
+}

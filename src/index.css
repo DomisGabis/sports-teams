@@ -1,0 +1,119 @@
+:root { --header-height: 4rem; --footer-height: 3rem; --bg-color: #0A111B; }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: radial-gradient(circle at center, #1c2136, #0A111B);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 100;
+  color: #ffffff;
+}
+
+/* #93979A #A2A7AB*/
+/* #0A111B #1B1F32 */
+
+.primaryButton {
+    font-size: 1rem;
+    font-family: Inter;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background: repeating-linear-gradient(
+        90deg,
+        #00158a 0%,
+        #022CDD 50%,
+        #00158a 98%
+    );
+    background-size: 200% 100%;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.primaryButton:hover {
+    animation: wave 2s linear infinite;
+    box-shadow: #022edd97 0px 0px 8px 1px;
+}
+
+.primaryButton:active {
+    opacity: 70%;
+}
+
+.secondaryButton:active {
+    opacity: 70%;
+}
+
+@keyframes wave {
+    from {
+        background-position: 0% 0%;
+    }
+    to {
+        background-position: -200% 0%; 
+    }
+}
+
+.secondaryButton {
+    position: relative;
+    font-size: 1rem;
+    font-family: Inter;
+    padding: 0.5rem 1rem;
+    background: transparent;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1;
+    transition: 0.2s;
+}
+
+.secondaryButton::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 2px;
+    border-radius: 5px;
+    
+    background: repeating-linear-gradient(
+        90deg,
+        #00158a 0%,
+        #022CDD 50%,
+        #00158a 100%
+    );
+    background-size: 200% 100%;
+
+    mask:
+        linear-gradient(#000 0 0) content-box,
+        linear-gradient(#000 0 0);
+    mask-composite: exclude;
+    -webkit-mask-composite: xor;
+
+    pointer-events: none;
+    z-index: -1;
+}
+
+.secondaryButton:hover::before {
+    animation: wave 2s linear infinite;
+    box-shadow: #022edd97 0px 0px 8px 1px;
+}
+.secondaryButton:hover {
+    box-shadow: #022edd97 0px 0px 8px 1px;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: white;
+}
+
+input::placeholder {
+    color: #8a8a8a;
+}

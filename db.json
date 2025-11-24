@@ -1,0 +1,548 @@
+{
+  "teams": [
+    {
+      "id": "0239",
+      "name": "Lech Poznań",
+      "country": "Poland",
+      "logoColor": "#0008ff"
+    },
+    {
+      "id": "3b88",
+      "name": "NK Maribor",
+      "country": "Slovenia",
+      "logoColor": "#8800d1"
+    },
+    {
+      "id": "f79a",
+      "name": "Olimpija Ljubljana",
+      "country": "Slovenia",
+      "logoColor": "#2b8836"
+    },
+    {
+      "id": "f638",
+      "name": "FC Barcelona",
+      "country": "Spain",
+      "logoColor": "#c29800"
+    },
+    {
+      "id": "a9ed",
+      "name": "Real Madrid",
+      "country": "Spain",
+      "logoColor": "#ffffff"
+    },
+    {
+      "id": "168d",
+      "name": "Paris Saint-Germain",
+      "country": "France",
+      "logoColor": "#009eb3"
+    },
+    {
+      "id": "0436",
+      "name": "Olympique Marseille",
+      "country": "France",
+      "logoColor": "#009dff"
+    },
+    {
+      "id": "e58c",
+      "name": "Arenal London",
+      "country": "United Kingdom",
+      "logoColor": "#ff0000"
+    },
+    {
+      "id": "24a0",
+      "name": "FC Chelsea",
+      "country": "United Kingdom",
+      "logoColor": "#000ba3"
+    },
+    {
+      "id": "c58f",
+      "name": "Manchester City",
+      "country": "United Kingdom",
+      "logoColor": "#8fd4e6"
+    },
+    {
+      "id": "6cea",
+      "name": "Inter Milan",
+      "country": "Italy",
+      "logoColor": "#ffffff"
+    },
+    {
+      "id": "671e",
+      "name": "Tottenham Hotspur",
+      "country": "United Kingdom",
+      "logoColor": "#0b0255"
+    },
+    {
+      "id": "d124",
+      "name": "Bayern Munich",
+      "country": "Germany",
+      "logoColor": "#ff2929"
+    }
+  ],
+  "players": [
+    {
+      "id": "09c1",
+      "teamId": "0239",
+      "name": "Luis",
+      "surname": "Palma",
+      "number": 4,
+      "position": "Attack"
+    },
+    {
+      "id": "p0239a",
+      "teamId": "0239",
+      "name": "Marek",
+      "surname": "Kamiński",
+      "number": 8,
+      "position": "Midfield"
+    },
+    {
+      "id": "p0239b",
+      "teamId": "0239",
+      "name": "Piotr",
+      "surname": "Lewandowski",
+      "number": 10,
+      "position": "Attack"
+    },
+    {
+      "id": "p0239c",
+      "teamId": "0239",
+      "name": "Tomasz",
+      "surname": "Ratajczak",
+      "number": 2,
+      "position": "Defense"
+    },
+    {
+      "id": "p3b88a",
+      "teamId": "3b88",
+      "name": "Luka",
+      "surname": "Kramarič",
+      "number": 9,
+      "position": "Attack"
+    },
+    {
+      "id": "p3b88b",
+      "teamId": "3b88",
+      "name": "Žan",
+      "surname": "Pavlović",
+      "number": 6,
+      "position": "Midfield"
+    },
+    {
+      "id": "p3b88c",
+      "teamId": "3b88",
+      "name": "Mark",
+      "surname": "Šuler",
+      "number": 4,
+      "position": "Defense"
+    },
+    {
+      "id": "pf79aa",
+      "teamId": "f79a",
+      "name": "Jaka",
+      "surname": "Zupan",
+      "number": 7,
+      "position": "Midfield"
+    },
+    {
+      "id": "pf79ab",
+      "teamId": "f79a",
+      "name": "Gregor",
+      "surname": "Mlinar",
+      "number": 11,
+      "position": "Attack"
+    },
+    {
+      "id": "pf79ac",
+      "teamId": "f79a",
+      "name": "Vid",
+      "surname": "Sotlar",
+      "number": 3,
+      "position": "Defense"
+    },
+    {
+      "id": "pf638a",
+      "teamId": "f638",
+      "name": "Pablo",
+      "surname": "García",
+      "number": 14,
+      "position": "Midfield"
+    },
+    {
+      "id": "pf638b",
+      "teamId": "f638",
+      "name": "Álvaro",
+      "surname": "Suárez",
+      "number": 19,
+      "position": "Attack"
+    },
+    {
+      "id": "pf638c",
+      "teamId": "f638",
+      "name": "Jordi",
+      "surname": "Martínez",
+      "number": 5,
+      "position": "Defense"
+    },
+    {
+      "id": "pa9eda",
+      "teamId": "a9ed",
+      "name": "Sergio",
+      "surname": "Mendoza",
+      "number": 18,
+      "position": "Defense"
+    },
+    {
+      "id": "pa9edb",
+      "teamId": "a9ed",
+      "name": "Rafael",
+      "surname": "Jiménez",
+      "number": 7,
+      "position": "Attack"
+    },
+    {
+      "id": "pa9edc",
+      "teamId": "a9ed",
+      "name": "Daniel",
+      "surname": "Lopez",
+      "number": 12,
+      "position": "Midfield"
+    },
+    {
+      "id": "p168da",
+      "teamId": "168d",
+      "name": "Théo",
+      "surname": "Renard",
+      "number": 20,
+      "position": "Midfield"
+    },
+    {
+      "id": "p168db",
+      "teamId": "168d",
+      "name": "Lucas",
+      "surname": "Morel",
+      "number": 9,
+      "position": "Attack"
+    },
+    {
+      "id": "p168dc",
+      "teamId": "168d",
+      "name": "Adrien",
+      "surname": "Carpentier",
+      "number": 4,
+      "position": "Defense"
+    },
+    {
+      "id": "p0436a",
+      "teamId": "0436",
+      "name": "Mathis",
+      "surname": "Dufour",
+      "number": 8,
+      "position": "Midfield"
+    },
+    {
+      "id": "p0436b",
+      "teamId": "0436",
+      "name": "Julien",
+      "surname": "Marcel",
+      "number": 10,
+      "position": "Attack"
+    },
+    {
+      "id": "p0436c",
+      "teamId": "0436",
+      "name": "Antoine",
+      "surname": "Bernard",
+      "number": 3,
+      "position": "Defense"
+    },
+    {
+      "id": "pe58ca",
+      "teamId": "e58c",
+      "name": "Oliver",
+      "surname": "Grant",
+      "number": 14,
+      "position": "Midfield"
+    },
+    {
+      "id": "pe58cb",
+      "teamId": "e58c",
+      "name": "James",
+      "surname": "Thompson",
+      "number": 22,
+      "position": "Defense"
+    },
+    {
+      "id": "pe58cc",
+      "teamId": "e58c",
+      "name": "Mason",
+      "surname": "Carter",
+      "number": 9,
+      "position": "Attack"
+    },
+    {
+      "id": "p24a0a",
+      "teamId": "24a0",
+      "name": "Ethan",
+      "surname": "Brooks",
+      "number": 17,
+      "position": "Midfield"
+    },
+    {
+      "id": "p24a0b",
+      "teamId": "24a0",
+      "name": "Harry",
+      "surname": "Bennett",
+      "number": 11,
+      "position": "Attack"
+    },
+    {
+      "id": "p24a0c",
+      "teamId": "24a0",
+      "name": "Callum",
+      "surname": "Preston",
+      "number": 5,
+      "position": "Defense"
+    },
+    {
+      "id": "pc58fa",
+      "teamId": "c58f",
+      "name": "Liam",
+      "surname": "Hughes",
+      "number": 8,
+      "position": "Midfield"
+    },
+    {
+      "id": "pc58fb",
+      "teamId": "c58f",
+      "name": "Ryan",
+      "surname": "Foster",
+      "number": 4,
+      "position": "Defense"
+    },
+    {
+      "id": "pc58fc",
+      "teamId": "c58f",
+      "name": "Ben",
+      "surname": "Harris",
+      "number": 10,
+      "position": "Attack"
+    },
+    {
+      "id": "p6ceaa",
+      "teamId": "6cea",
+      "name": "Lorenzo",
+      "surname": "Costa",
+      "number": 21,
+      "position": "Midfield"
+    },
+    {
+      "id": "p6ceab",
+      "teamId": "6cea",
+      "name": "Marco",
+      "surname": "Ricci",
+      "number": 9,
+      "position": "Attack"
+    },
+    {
+      "id": "p6ceac",
+      "teamId": "6cea",
+      "name": "Davide",
+      "surname": "Romano",
+      "number": 3,
+      "position": "Defense"
+    },
+    {
+      "id": "p671ea",
+      "teamId": "671e",
+      "name": "Charlie",
+      "surname": "Matthews",
+      "number": 15,
+      "position": "Midfield"
+    },
+    {
+      "id": "p671eb",
+      "teamId": "671e",
+      "name": "George",
+      "surname": "Peters",
+      "number": 7,
+      "position": "Attack"
+    },
+    {
+      "id": "p671ec",
+      "teamId": "671e",
+      "name": "Alfie",
+      "surname": "Morris",
+      "number": 2,
+      "position": "Defense"
+    },
+    {
+      "id": "pd124a",
+      "teamId": "d124",
+      "name": "Leon",
+      "surname": "Krüger",
+      "number": 6,
+      "position": "Midfield"
+    },
+    {
+      "id": "pd124b",
+      "teamId": "d124",
+      "name": "Jonas",
+      "surname": "Weber",
+      "number": 9,
+      "position": "Attack"
+    },
+    {
+      "id": "pd124c",
+      "teamId": "d124",
+      "name": "Matthias",
+      "surname": "Schmidt",
+      "number": 4,
+      "position": "Defense"
+    },
+    {
+      "id": "p3b88d",
+      "teamId": "3b88",
+      "name": "Tilen",
+      "surname": "Vuković",
+      "number": 13,
+      "position": "Midfield"
+    },
+    {
+      "id": "p3b88e",
+      "teamId": "3b88",
+      "name": "Nejc",
+      "surname": "Hribar",
+      "number": 22,
+      "position": "Defense"
+    },
+    {
+      "id": "p3b88f",
+      "teamId": "3b88",
+      "name": "Erik",
+      "surname": "Bohinc",
+      "number": 16,
+      "position": "Attack"
+    },
+    {
+      "id": "p3b88g",
+      "teamId": "3b88",
+      "name": "Anže",
+      "surname": "Sever",
+      "number": 24,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": "p3b88h",
+      "teamId": "3b88",
+      "name": "Miha",
+      "surname": "Pibernik",
+      "number": 18,
+      "position": "Midfield"
+    },
+    {
+      "id": "p3b88i",
+      "teamId": "3b88",
+      "name": "Žiga",
+      "surname": "Petrič",
+      "number": 28,
+      "position": "Defense"
+    },
+    {
+      "id": "p3b88j",
+      "teamId": "3b88",
+      "name": "Jan",
+      "surname": "Kovačič",
+      "number": 31,
+      "position": "Attack"
+    },
+    {
+      "id": "p3b88k",
+      "teamId": "3b88",
+      "name": "Anej",
+      "surname": "Urbanc",
+      "number": 19,
+      "position": "Midfield"
+    },
+    {
+      "id": "p3b88l",
+      "teamId": "3b88",
+      "name": "Luka",
+      "surname": "Jelen",
+      "number": 33,
+      "position": "Defense"
+    },
+    {
+      "id": "p3b88m",
+      "teamId": "3b88",
+      "name": "Marko",
+      "surname": "Rozman",
+      "number": 27,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": "pf79ad",
+      "teamId": "f79a",
+      "name": "Rok",
+      "surname": "Medved",
+      "number": 14,
+      "position": "Midfield"
+    },
+    {
+      "id": "pf79ae",
+      "teamId": "f79a",
+      "name": "Lan",
+      "surname": "Erjavec",
+      "number": 8,
+      "position": "Defense"
+    },
+    {
+      "id": "pf79af",
+      "teamId": "f79a",
+      "name": "Tian",
+      "surname": "Zajc",
+      "number": 23,
+      "position": "Attack"
+    },
+    {
+      "id": "pf79ag",
+      "teamId": "f79a",
+      "name": "Jure",
+      "surname": "Verbič",
+      "number": 30,
+      "position": "Goalkeeper"
+    },
+    {
+      "id": "pf79ah",
+      "teamId": "f79a",
+      "name": "Niko",
+      "surname": "Kregar",
+      "number": 15,
+      "position": "Defense"
+    },
+    {
+      "id": "pf79ai",
+      "teamId": "f79a",
+      "name": "Oskar",
+      "surname": "Mlakar",
+      "number": 26,
+      "position": "Midfield"
+    },
+    {
+      "id": "pf79aj",
+      "teamId": "f79a",
+      "name": "Gaber",
+      "surname": "Vidmar",
+      "number": 17,
+      "position": "Attack"
+    },
+    {
+      "id": "d72d",
+      "teamId": "3b88",
+      "name": "Karol",
+      "surname": "Borys",
+      "number": 21,
+      "position": "Attack"
+    }
+  ]
+}

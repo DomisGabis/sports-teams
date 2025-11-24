@@ -1,0 +1,12 @@
+.root {
+    display: flex;
+    flex-direction: column;
+}
+
+.pageContent {
+    min-height: 100%;
+    padding-top: var(--header-height);
+    padding-bottom: calc(var(--footer-height) + 3rem);
+    padding-left: calc(2rem - 8px);
+    padding-right: calc(2rem - 8px);
+}
