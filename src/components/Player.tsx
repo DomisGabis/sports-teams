@@ -1,6 +1,5 @@
-import { useNavigate, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import type { PlayerType } from '../types/PlayerType';
-import styles from './Player.module.css';
 import { useEffect, useState } from 'react';
 import { getPlayer } from '../api/api';
 import Modal from './Modal';
